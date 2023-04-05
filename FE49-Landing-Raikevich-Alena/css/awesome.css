@@ -1,0 +1,43 @@
+.awesome {
+padding: 80px 0 116px;
+background-color: #fff;
+}
+
+.awesome-wrap {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 0 -15px;
+}
+
+.awesome-card {
+    width: 350px;
+    margin: 0 15px;
+    background-color: #fff;
+}
+
+.awesome-card__title {
+    text-align: center;
+    margin-bottom: 16px;
+    font-size: 20px;
+    font-weight: 700;
+    color: #333333;
+}
+
+.awesome-card__text p {
+    font-weight: 400;
+    font-size: 14px;
+    color: #000000;
+    text-align: center;
+}
+
+.awesome-card__img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70px;
+    height: 70px;
+    border: 1px solid #E72424;
+    margin: 0 auto 30px;
+    border-radius: 50%;
+}
