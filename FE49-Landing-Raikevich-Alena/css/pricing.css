@@ -62,3 +62,7 @@ color: #FFFFFF;
     justify-content: space-between;
     margin: 0 -15px;
 }
+
+.pricing-card__item4:last-child {
+margin-bottom: 0;
+}

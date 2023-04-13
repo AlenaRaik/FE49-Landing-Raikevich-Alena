@@ -1,0 +1,41 @@
+.stylish {
+background-image: url(../img/background_stylish.png);
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+position: relative;
+padding: 60px 0 40px;
+}
+
+.stylish::after {
+    content: '';
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.55);
+    position: absolute;
+}
+
+.stylish_download {
+    font-family: 'Open Sans';
+    border: 1px solid rgb(255, 255, 255);
+    color: rgb(255, 255, 255);
+    padding: 10px 30px;
+    font-weight: 600;
+    font-size: 15px;
+    width: 135px;
+    margin: auto;
+    text-align: center;
+    display: block;
+    text-transform: capitalize;
+    transition: 0.8s;
+}
+
+.stylish_download:hover {
+    border: 1px solid rgb(255, 255, 255);
+    background-color: rgba(255, 255, 255, 0.55);
+    color:  rgb(0, 0, 0);
+    text-transform: capitalize;
+    transition: 0.8s;
+}
