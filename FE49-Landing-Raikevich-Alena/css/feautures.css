@@ -1,0 +1,120 @@
+.feautures {
+    padding: 125px 0;
+    background-color: #ffffff;
+}
+
+.content-tab2__item{
+    display: none;
+}
+.content-tab3__item{
+    display: none;
+}
+
+.header-tab__btn{
+    width: 112px;
+    background: #333333;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    line-height: 112px;
+    margin-bottom: 10px;
+    display: block;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    cursor: pointer;
+
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+}
+
+.header-tab__btn:active{
+    background: #EC7979;
+}
+
+.header-tab__btn:last-child{
+    margin-bottom: 0;
+}
+.header-tab{
+    margin: 0 15px;
+}
+.content-tab{
+    margin: 0 15px;
+}
+.feautures-wrap{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 0 -15px;
+}
+
+.content-tab__title{
+    text-transform:uppercase;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 27px;
+    margin-bottom: 58px;
+}
+
+.content-tab_text{
+    width: 572px;
+    margin: 0 15px;
+}
+
+.content-tab__features{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-bottom: 60px;
+}
+
+.feauteres-tab__img{
+    margin: 0 15px;
+}
+
+.content-tab__description p{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    color: #86878B;
+    margin-bottom: 19px;
+}
+.content-tab__description p:last-child{
+    margin-bottom: 0;
+}
+
+.content-button_features{
+    font-weight: 500;
+    font-size: 15px;
+    text-align: center;
+    color: #FFFFFF;
+    text-transform: capitalize;
+    background: #EC7979;
+    border: 1px solid #EC7979;
+    width: 135px;
+    line-height: 42px;
+    cursor: pointer;
+    margin: 0 15px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.content-button_features:hover {
+    border: 1px solid #EC7979;
+    background-color: rgba(255, 255, 255, 0.55);
+    color:  #EC7979;
+    text-transform: capitalize;
+    transition: 0.8s;
+    box-shadow: 0 0 20px rgba(224, 128, 128, 1) inset; 
+}
+
+.feauteres-tab__img img{
+    width: 100%;
+    height: 100%;
+}
