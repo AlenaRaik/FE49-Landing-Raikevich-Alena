@@ -1,5 +1,5 @@
 .contact {
-    padding: 80px 0 44px;
+    padding: 5rem 0 2.75rem;
     background-color: #fff;
 }
 
@@ -20,3 +20,69 @@
     width: 40%;
     margin: 0 15px;
 }
+
+.contact-item{
+    display: block;
+    margin-bottom: 32px;
+}
+
+.contact-item:last-child{
+    margin-bottom: 0;
+}
+
+.contact-item__label{
+    display: block;
+    color: #BDBDBD;
+    text-transform: capitalize;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    margin-bottom: 13px;
+    }
+    
+    .contact-item__input{
+        border: none;
+        border-bottom: 1px solid #BDBDBD;
+        outline: none;
+        width: 100%;
+        font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 16px;
+        line-height: 19px;
+        color: #516272;
+    }
+    
+    .contact-button{
+        font-weight: 500;
+        font-size: 0.9375rem;
+        text-align: center;
+        color: #FFFFFF;
+        text-transform: capitalize;
+        background: #EC7979;
+        border: 1px solid #EC7979;
+        width: 10.375rem;
+        line-height: 54px;
+        cursor: pointer;
+        margin: auto;
+        display: flex;
+        justify-content: center;
+    
+    }
+    
+    .contact-button:hover {
+        border: 1px solid #EC7979;
+        background-color: rgba(255, 255, 255, 0.55);
+        color:  #EC7979;
+        text-transform: capitalize;
+        transition: 0.8s;
+        box-shadow: 0 0 20px rgba(224, 128, 128, 1) inset; 
+    }
+
+    .contact-textarea{
+        border: none;
+        border-bottom: 1px solid #BDBDBD;
+        resize: none;
+        width: 100%;
+        height: calc(100% - 32px);
+    }

@@ -1,5 +1,5 @@
 .awesome {
-padding: 80px 0 116px;
+padding: 5rem 0 7.25rem;
 background-color: #fff;
 }
 
@@ -11,7 +11,7 @@ background-color: #fff;
 }
 
 .awesome-card {
-    width: 350px;
+    width: 21.875rem;
     margin: 0 15px;
     background-color: #fff;
 }
@@ -19,14 +19,14 @@ background-color: #fff;
 .awesome-card__title {
     text-align: center;
     margin-bottom: 16px;
-    font-size: 20px;
+    font-size: 1.25rem;
     font-weight: 700;
     color: #333333;
 }
 
 .awesome-card__text p {
     font-weight: 400;
-    font-size: 14px;
+    font-size: 0.875rem;
     color: #000000;
     text-align: center;
 }
@@ -40,4 +40,14 @@ background-color: #fff;
     border: 1px solid #E72424;
     margin: 0 auto 30px;
     border-radius: 50%;
+}
+
+@media (max-width: 1140px) {
+    .awesome-wrap {
+        flex-direction: column;
+        align-items: center;
+    }
+    .awesome-card{
+        margin-bottom: 15px;
+    }
 }

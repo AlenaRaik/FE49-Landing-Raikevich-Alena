@@ -29,8 +29,7 @@
 .title {
     font-family: 'Raleway';
     font-weight: 400;
-    width: 668px;
-    font-size: 36px;
+    font-size: 2.25rem;
     margin: auto;
     text-align: center;
     font-family: 'Raleway';
@@ -51,8 +50,7 @@
 .title_white {
     font-family: 'Raleway';
     font-weight: 400;
-    width: 668px;
-    font-size: 36px;
+    font-size: 2.25rem;
     margin: auto;
     text-align: center;
     font-family: 'Raleway';
@@ -78,12 +76,11 @@ html {
     margin: auto;
     text-align: center;
     margin-bottom: 68px;
-    width: 780px;
 }
 
 .description p {
     font-weight: 400;
-    font-size: 14px;
+    font-size: 0.875rem;
     line-height: 19px;
     color: #86878B;
 }
@@ -92,12 +89,11 @@ html {
     margin: auto;
     text-align: center;
     margin-bottom: 68px;
-    width: 780px;
 }
 
 .description_white p {
     font-weight: 400;
-    font-size: 14px;
+    font-size: 0.875rem;
     line-height: 19px;
     color: #ffffff;
 }
@@ -108,4 +104,22 @@ html {
     background-color: #E72424;
     margin: auto;
     margin-bottom: 34px;
+}
+
+@media (max-width: 992px){
+    .container {
+        max-width: 750px;
+    }
+}
+
+@media (max-width: 610px){
+    html {
+        font-size: 0.8rem;
+    }
+}
+
+@media (max-width: 500px){
+    html {
+        font-size: 0.6rem;
+    }
 }

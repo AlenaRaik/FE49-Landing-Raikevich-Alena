@@ -1,5 +1,5 @@
 .customers {
-    padding: 80px 0 116px;
+    padding: 5rem 0 7.25rem;
     background-color: #ffffff;
 }
 
@@ -28,7 +28,7 @@
 
 .customers-card__text p {
     font-weight: 400;
-    font-size: 14px;
+    font-size: 0.875rem;
     line-height: 19px;
     color: #86878B;
     font-family: 'Open Sans';
@@ -57,7 +57,7 @@ height: 100%;
 
 .customers-card__name {
 font-weight: 700;
-font-size: 20px;
+font-size: 1.25rem;
 line-height: 27px;
 color: #333333;
 display: block;
@@ -67,7 +67,7 @@ margin-bottom: 12px;
 .customers-card__job {
     display: block;
 font-weight: 400;
-font-size: 14px;
+font-size: 0.875rem;
 line-height: 19px;
 color: #86878B;
 }
@@ -91,3 +91,13 @@ color: #86878B;
     font-family: 'Open Sans';
     font-style: normal;
    }
+
+   @media (max-width: 992px) {
+    .customers-wrap{
+        flex-direction: column;
+        align-items: center;
+    }
+    .customers-card{
+        margin-bottom: 20px;
+    }
+}
