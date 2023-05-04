@@ -120,7 +120,7 @@
     height: 100%;
 }
 
-@media (max-width: 1125px) {
+@media (max-width: 1140px) {
     .header-tab__btn{
         line-height: 5rem;
         width: 5rem;

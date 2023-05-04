@@ -84,3 +84,9 @@
 .fa-rss__social:hover{
     color: #ff6600;
 }
+
+@media (max-width: 1110px) {
+    .social-wrap__text{
+        margin: 0 15px 15px;
+    }
+}
