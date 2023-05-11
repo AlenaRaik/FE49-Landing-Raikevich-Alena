@@ -73,12 +73,13 @@ margin-bottom: 0;
     transition: 0.4s;
 }
 
-@media (max-width: 1110px) {
+@media (max-width: 1128px) {
     .pricing-wrap{
         flex-direction: column;
         align-items: center;
     }
     .pricing-card{
-        margin-bottom: 20px;
+        margin-bottom: 30px;
+        width: 50%;
     }
 }

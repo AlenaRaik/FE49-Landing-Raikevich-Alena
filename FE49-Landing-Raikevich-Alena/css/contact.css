@@ -9,6 +9,8 @@
     justify-content: space-between;
     margin: 0 -15px;
     margin-bottom: 69px;
+
+    
 }
 
 .contact-form_user{
@@ -85,4 +87,20 @@
         resize: none;
         width: 100%;
         height: calc(100% - 32px);
+    }
+
+    @media (max-width: 600px) {
+        .contact-wrap{
+            display: block;
+        }
+        .contact-form_user{
+        margin: auto;
+        margin-bottom: 70px;
+        width: 80%;
+        }
+        .contact-form_massage{
+            margin: auto;
+            width: 80%;
+            }
+    
     }

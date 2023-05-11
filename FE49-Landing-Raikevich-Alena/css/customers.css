@@ -98,6 +98,25 @@ color: #86878B;
         align-items: center;
     }
     .customers-card{
+        width: 50%;
+        margin-bottom: 50px;
+    }
+    .customers-card__text{
         margin-bottom: 20px;
+    }
+}
+
+
+@media (max-width: 820px) {
+    .customers-card{
+        width: 60%;
+        margin-bottom: 50px;
+    }
+}
+
+@media (max-width: 680px) {
+    .customers-card{
+        width: 80%;
+        margin-bottom: 50px;
     }
 }

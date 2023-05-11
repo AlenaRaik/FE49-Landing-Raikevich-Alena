@@ -48,6 +48,7 @@ background-color: #fff;
         align-items: center;
     }
     .awesome-card{
-        margin-bottom: 15px;
+        margin-bottom: 30px;
+        width: 50%;
     }
 }
