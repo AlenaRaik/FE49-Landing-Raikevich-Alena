@@ -89,7 +89,7 @@
         height: calc(100% - 32px);
     }
 
-    @media (max-width: 600px) {
+    @media (max-width: 720px) {
         .contact-wrap{
             display: block;
         }
